@@ -9,7 +9,9 @@
     <title>MADA Oil</title>
   </head>
   <body style="background: linear-gradient(#5000a2, #231f20);">
-    <img src="./MADA_logo_white.svg"/>
-    <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+    <header class="page-header" role="banner">
+      <img src="./MADA_logo_white.svg"/>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+    </header>
   </body>
 </html>
